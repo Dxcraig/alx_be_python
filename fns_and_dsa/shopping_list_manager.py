@@ -32,7 +32,7 @@ def main():
 
         if choice == '1':
             # Prompt for and add an item
-            new_item = input("Enter the item you want to add: ")
+            new_item = input("Enter the item to add: ")
             print(add_item(new_item))
         elif choice == '2':
             # Prompt for and remove an item
